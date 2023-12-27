@@ -1,0 +1,16 @@
+.header {
+  background-color: #e62626;
+  height: 65px;
+  color: white;
+  padding: 0px 0;
+  font-size: large;
+}
+.head {
+  padding-top: 20px;
+}
+.btn-link:hover {
+  color: #fff; 
+}
+.btn-link-container {
+  margin-right: 10px;
+}

@@ -1,0 +1,41 @@
+.footer {
+    border: 1px solid #e62626;
+    background-color: #e62626;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 1;
+    padding-top: 30px;
+  }
+  
+  .logo-column {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10%;
+  }
+  
+  .bus-logo {
+    margin-bottom: 20px;
+  }
+  
+  h6 {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    margin: 5px 0;
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

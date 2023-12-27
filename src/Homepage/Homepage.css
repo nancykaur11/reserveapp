@@ -1,0 +1,117 @@
+.homepage-container {
+  background-image: url("C:\Users\DELL\Downloads\public-transport-bus-service-flat-poster\8898.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking-container {
+  padding: 5px;
+  width: 60%;
+  margin: 2px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.input-row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.input-container {
+  position: relative;
+  width: 30%;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: none;
+  background-color: white; /* 50% transparent white */
+  font-size: small;
+}
+
+.dropdown {
+  position: absolute;
+  width: 100%;
+  border: 1px solid #ccc;
+  max-height: 150px;
+  overflow-y: scroll;
+  z-index: 1;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.dropdown div {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.dropdown div:hover {
+  background-color: #f1f1f1;
+}
+
+.close-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #555;
+  font-size: 24px;
+}
+
+.search-container {
+  margin-top: 20px;
+}
+.payment-overlay {
+  position: fixed;
+  top: 0;
+  left: 25;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+/* .passenger-container{
+  justify-content: center;
+  padding: 5%;
+  background-color: whitesmoke;
+  border-radius: 5%;
+  border: 2px solid black;
+} */
+
+.passenger-container {
+  background-color: white;
+  border-radius: 5%;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  max-width: 60%;
+  margin: auto;
+  position: sticky;
+}
+.passenger-busname {
+  padding: "2px";
+  margin-left: "45px";
+  margin-right: "15px";
+  background: "green";
+  color: "white";
+}
+.pass-row{
+  padding-bottom:6px ;
+}

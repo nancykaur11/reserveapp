@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+.trip-rating {
+  padding: 12px;
+  margin-left: 35px;
+  margin-right: 5px;
+  background: green;
+  color: white;
+}
+
+.trip-detail {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+}
+
+.trip-detail b {
+  flex-basis: 50%;
+  text-align: start;
+}
+
+.trip-detail div {
+  flex-basis: 50%;
+  text-align: center;
+  background: white;
+}
+
+.trip-cost {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+}
+
+.trip-cost b {
+  flex-basis: 50%;
+  text-align: start;
+}
+
+.trip-cost div {
+  flex-basis: 50%;
+  text-align: center;
+  background: white;
+}
+
+
